@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts":{"server": "nodemon dist/index.js",
   "build":"rm -rf dist && tsc", 
-  "watch":"tsc -w"},
+  "watch":"tsc -w", 
+  "start":"rsc -w"},
   "dependencies": {
     "apollo-server-core": "^3.10.2",
     "apollo-server-express": "^3.10.2",
